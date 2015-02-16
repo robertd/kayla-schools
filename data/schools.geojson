@@ -1,0 +1,565 @@
+ var schools = {
+    "type": "FeatureCollection",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [{ 
+    	"type": "Feature", 
+    	"properties": { 
+    		"Schoolname": "Academy 360", 
+    		"Address": "912505 Elmendorf Place",
+    		"City": "Denver",
+    		"State": "CO",
+    		"Zipcode": "80239",
+         "URL": "http://www.Academy-360.org",
+         "Status": "Conducting Interviews",
+         "Length": "Until early afternoon"
+   	}, 
+    	"geometry": { 
+    		"type": "Point", 
+   		"coordinates": [ -104.843424, 39.792817 ] 
+   	} 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Aspen Ridge Prep School", 
+         "Address": "705 Austin Ave",
+         "City": "Erie",
+         "State": "CO",
+         "Zipcode": "80516",
+         "URL": "http://www.aspenridgeprepschool.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.0538693, 40.0333229 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Atlas Preparatory School", 
+         "Address": "1602 South Murray Boulevard",
+         "City": "Colorado Springs",
+         "State": "CO",
+         "Zipcode": "80916",
+         "URL": "http://atlasprep.org",
+         "Status": "Meet & Greet Only",
+         "Length": "Full Day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.75039, 38.810597 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Caprock Academy", 
+         "Address": "714 24 1/2 Rd",
+         "City": "Grand Junction",
+         "State": "CO",
+         "Zipcode": "81505",
+         "URL": "http://www.caprockacademy.org",
+         "Status": "Conducting Interview",
+         "Length": "Until early afternoon"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -108.597539, 39.108766 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Carbon Valley Academy", 
+         "Address": "4040 Coriolis Way",
+         "City": "Frederick",
+         "State": "CO",
+         "Zipcode": "80504",
+         "URL": "http://www.carbonvalleyacademy.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.97795, 40.113467 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Cherry Creek Charter Academy", 
+         "Address": "6260 South Dayton Street",
+         "City": "Englewood",
+         "State": "CO",
+         "Zipcode": "80111",
+         "URL": "http://www.cherrycreekacademy.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.874801, 39.602849 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Colorado Early Colleges Douglas County", 
+         "Address": "10235 Parkglenn Way",
+         "City": "Parker",
+         "State": "CO",
+         "Zipcode": "80138",
+         "URL": "http://www.cecdc914.org",
+         "Status": "Conducting interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.7661, 39.531538 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "DSST Stapleton", 
+         "Address": "2000 Valentia Street",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80238",
+         "URL": "http://dsstpublicschools.org",
+         "Status": "Undecided",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.890348, 39.748207 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Early College of Arvada", 
+         "Address": "4905 West 60th Avenue",
+         "City": "Arvada",
+         "State": "CO",
+         "Zipcode": "80003",
+         "URL": "http://ecarvada.org",
+         "Status": "Conducting interviews",
+         "Length": "Undecided"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.050404, 39.806093 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Flagstaff Academy", 
+         "Address": "2040 Miller Dr",
+         "City": "Longmont",
+         "State": "CO",
+         "Zipcode": "80501",
+         "URL": "http://www.flagstaffacademy.org",
+         "Status": "Meet & Greet only",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.1273402, 40.1406426 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Foundations Academy", 
+         "Address": "340 South 45th Avenue",
+         "City": "Brighton",
+         "State": "CO",
+         "Zipcode": "80601",
+         "URL": "http://www.nhaschools.com",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.760194, 39.982691 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Global Village Charter Collaborative", 
+         "Address": "555 West 112th Avenue",
+         "City": "Northglenn",
+         "State": "CO",
+         "Zipcode": "80234",
+         "URL": "http://globalvillageacademy.edlioschool.com/",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.8939475, 39.805841 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Golden View Classical Academy", 
+         "Address": "601 Corporate Cir",
+         "City": "Golden",
+         "State": "CO",
+         "Zipcode": "80401",
+         "URL": "http://www.goldenviewclassical.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.190683, 39.718853 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Highline Academy Charter School", 
+         "Address": "2170 S Dahlia St",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80222",
+         "URL": "http://www.highlineacademy.org",
+         "Status": "Meet & Greet only",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.930771, 39.677004 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "High Point Academy", 
+         "Address": "6750 North Dunkirk Street",
+         "City": "Aurora",
+         "State": "CO",
+         "Zipcode": "80019",
+         "URL": "http://www.highpointacademy.net",
+         "Status": "Undecided",
+         "Length": "Undecided"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.761992, 39.818929 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Imagine Charter School at Firestone", 
+         "Address": "5753 Twilight Avenue",
+         "City": "Firestone",
+         "State": "CO",
+         "Zipcode": "80504",
+         "URL": "http://www.imaginefirestone.org/",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.947515, 40.16372 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Imagine Classical Academy Indigo Ranch", 
+         "Address": "6464 Peterson Rd",
+         "City": "Colorado Springs",
+         "State": "CO",
+         "Zipcode": "80923",
+         "URL": "http://www.ticaindigoranch.com",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.693592, 38.925448 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Landmark (National Heritage Academies)", 
+         "Address": "10566 Memphis St",
+         "City": "Commerce City",
+         "State": "CO",
+         "Zipcode": "80022",
+         "URL": "http://www.nhaschools.com",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.796019, 39.888752 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Lotus School For Excellence", 
+         "Address": "11001 E Alameda Ave",
+         "City": "Aurora",
+         "State": "CO",
+         "Zipcode": "80012",
+         "URL": "http://www.lotusschool.org",
+         "Status": "Meet & Greet only",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.860054, 39.712263 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Loveland Classical School ", 
+         "Address": "3835 14th St SW",
+         "City": "Loveland",
+         "State": "CO",
+         "Zipcode": "80537",
+         "URL": "http://www.lovelandclassical.org",
+         "Status": "Undecided",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.129912, 40.379355 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Peak to Peak Charter School", 
+         "Address": "800 Merlin Dr",
+         "City": "Lafayette",
+         "State": "CO",
+         "Zipcode": "80026",
+         "URL": "http://www.peaktopeak.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.078414, 39.992322 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Pikes Peak Prep Charter School", 
+         "Address": "525 E Costilla St",
+         "City": "Colorado Springs",
+         "State": "CO",
+         "Zipcode": "80903",
+         "URL": "http://www.pikespeakprep.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.815327, 38.827341 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Pikes Peak School of Expeditionary Learning ", 
+         "Address": "11925 Antler’s Ridge Rd",
+         "City": "Falcon",
+         "State": "CO",
+         "Zipcode": "80831",
+         "URL": "http://www.ppsel.org ",
+         "Status": "Conducting Interviews",
+         "Length": "Until early afternoon"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.60494, 38.999406 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Prospect Ridge Academy", 
+         "Address": "2555 Preble Creek Parkway",
+         "City": "Broomfield",
+         "State": "CO",
+         "Zipcode": "80023",
+         "URL": "http://www.ProspectRidgeAcademy.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.017671, 39.994286 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "REACH Charter", 
+         "Address": "940 Fillmore St",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80206",
+         "URL": "http://reachpk5.org",
+         "Status": "Conducting Interviews",
+         "Length": "Until early afternoon"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.952255, 39.7316559 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Rocky Mountain Prep", 
+         "Address": "7808 Cherry Creek S Dr",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80231",
+         "URL": "http://www.rockymountainprep.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.898587, 39.678771 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Stargate Charter School", 
+         "Address": "3951 Cottonwood Lakes Blvd",
+         "City": "Thornton",
+         "State": "CO",
+         "Zipcode": "80241",
+         "URL": "http://www.stargateschool.org",
+         "Status": "Meet & Greet only",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.941326, 39.934828 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "STEM School", 
+         "Address": "8773 South Ridgeline Blvd",
+         "City": "Highlands Ranch",
+         "State": "CO",
+         "Zipcode": "80129",
+         "URL": "http://http://www.stemhigh.org/",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.997907, 39.5559595 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Summit Middle Charter", 
+         "Address": "4655 Hanover Avenue",
+         "City": "Boulder",
+         "State": "CO",
+         "Zipcode": "80305",
+         "URL": "http://schools.bvsd.org/p12/summit",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -105.239989, 39.983319 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "University Prep", 
+         "Address": "2409 Arapahoe St",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80205",
+         "URL": "http://www.uprepschool.org",
+         "Status": "Undecided",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.985698, 39.756 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Vanguard Classical School", 
+         "Address": "801 Yosemite St",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80230",
+         "URL": "http://vanguardclassical.org",
+         "Status": "Undecided",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.888452, 39.729521 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Windsor Charter Academy", 
+         "Address": "680 Academy Ct",
+         "City": "Windsor",
+         "State": "CO",
+         "Zipcode": "80550",
+         "URL": "http://windsorcharteracademy.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.88158, 40.47174 ] 
+      } 
+   },
+   { 
+      "type": "Feature", 
+      "properties": { 
+         "Schoolname": "Wyatt Academy", 
+         "Address": "3620 Franklin Street",
+         "City": "Denver",
+         "State": "CO",
+         "Zipcode": "80200",
+         "URL": "http://www.wyattacademy.org",
+         "Status": "Conducting Interviews",
+         "Length": "Full day"
+      }, 
+      "geometry": { 
+         "type": "Point", 
+         "coordinates": [ -104.967888, 39.767607 ] 
+      } 
+   }]
+};
